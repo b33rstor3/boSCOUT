@@ -1,0 +1,22 @@
+2025-04-28 14:54:27,599 - INFO - --- Starting Hitter Hits Model Training ---
+2025-04-28 14:54:27,599 - INFO - Loading pitch data from 2023-03-30 to 2023-10-01 from mlb_data2.db
+2025-04-28 14:54:38,229 - INFO - Estimated rows: 713552 in approx 36 chunks.
+2025-04-28 14:54:41,105 - INFO - Successfully loaded 713552 rows.
+2025-04-28 14:54:41,135 - INFO - Calculating target variable (Hits) and base stats...
+2025-04-28 14:54:42,895 - INFO - Calculated target and base stats for 48447 batter-game instances.
+2025-04-28 14:54:43,065 - INFO - Creating features for Hitter Hits model...
+2025-04-28 14:54:44,433 - INFO - Created 10 features.
+2025-04-28 14:54:44,469 - INFO - Splitting data, training model, and evaluating...
+2025-04-28 14:54:44,494 - INFO - Training data shape: (40157, 10), Test data shape: (8290, 10)
+2025-04-28 14:54:44,495 - INFO - Training XGBoost Regressor model...
+2025-04-28 14:54:44,865 - INFO - Model training complete.
+2025-04-28 14:54:44,877 - INFO - --- Model Evaluation ---
+2025-04-28 14:54:44,877 - INFO - Target: H
+2025-04-28 14:54:44,877 - INFO - Test Set MAE:  0.6700
+2025-04-28 14:54:44,877 - INFO - Test Set RMSE: 0.8823
+2025-04-28 14:54:44,877 - INFO - Test Set R²:   0.0133
+2025-04-28 14:54:44,878 - INFO - ------------------------
+2025-04-28 14:54:44,881 - INFO - Model saved to hitter_hits_model.pkl
+2025-04-28 14:54:44,881 - INFO - Feature list saved to hitter_hits_features.pkl
+2025-04-28 14:54:44,882 - INFO - --- Script Finished ---
+2025-04-28 14:54:44,882 - INFO - Total execution time: 17.28 seconds

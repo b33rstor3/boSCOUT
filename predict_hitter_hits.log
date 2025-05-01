@@ -1,0 +1,6 @@
+2025-04-28 15:02:24,038 - INFO - --- Starting Hitter Hits Prediction ---
+2025-04-28 15:02:24,656 - INFO - Loaded model from hitter_hits_model.pkl and features from hitter_hits_features.pkl
+2025-04-28 15:02:24,656 - INFO - Loading historical pitch data from 2023-08-02 to 2023-09-30 for feature calculation.
+2025-04-28 15:02:26,025 - INFO - Successfully loaded 233578 historical rows.
+2025-04-28 15:02:26,035 - INFO - Calculating base stats from historical data...
+2025-04-28 15:02:26,521 - INFO - Calculated base stats for 15907 historical batter-game instances.
